@@ -55,8 +55,10 @@ main {
 
 .social-icons a {
     margin-right: 20px; /* Increase the space between icons */
-    font-size: 36px; /* Increase the icon size */
+    font-size: 40px; /* Increase the icon size */
     color: #333; /* Set the icon color */
+    text-decoration: none;
+    text-align: center;
 }
 
 p {
@@ -110,3 +112,4 @@ a.big-link {
     display: inline;
     margin-right: 10px; /* Add some space between items */
 }
+
