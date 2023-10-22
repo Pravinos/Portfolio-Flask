@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Thomas Kyriakos Pravinos</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>My Projects</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Me</a></li>
+            <li><a href="/projects">Projects</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="project">
+            <a href="https://github.com/Pravinos/" class="big-link">My Github</a>
+        </div>
+        <div class="project">
+            <h2>"Electronic Circuits in Space : Temperature Problem" - Telecommunications Electronics</h2>
+            <p>During the spring semester of 2022-23, me and my friend/co-student Dimitrios chose the topic of the title for the main project and presentation of the subject "Telecommunications electronics". In the link provided, the bibliographical work and the presentation are available.
+                <br>
+                <br>Language : Greek
+                <br>
+                Grade: 2/2</p>
+            <a href="https://drive.google.com/drive/folders/1ZhrMTpLZ8xgutU9tgO4R8gyf7-RwnZYB">View Project</a>
+        </div>
+        <div class="project">
+            <h2>"Functions of Artificial Intelligence in Smart Grids" - Distributed Production</h2>
+            <p>The bibliographical work I completed during spring semester of 2022-23 for subject "Distributed Production" centered around the functions of AI in Smart Grids and its role in Energy management and optimization.</p>
+            <a href="https://drive.google.com/file/d/1bzGz6SoH_qE7CLXtZA4tSQNI8KXnQ1iB/view">View Project</a>
+        </div>
+        <div class="project">
+            <h2>"Finding subject areas for scientific articles based on their titles and abstracts" - Network/Graph Theory</h2>
+            <p>This assignment was about finding subject areas for approximately 20,000 scientific articles, given their titles and abstracts. The data is provided in a CSV file and includes columns indicating whether each article belongs to various subject areas such as Computer Science, Physics, Mathematics, etc. The goal is to create a network graph of the articles, with edges representing how relevant pairs of articles are to each other, and to examine whether the resulting communities in the network correspond to the given subject areas. The correlation between articles can be calculated using a language model that provides sentence embeddings, and the precision of the results will be evaluated based on how well they match the given subject areas.</p>
+            <a href="https://github.com/Pravinos/Graph-Theory">View Project</a>
+        </div>
+    
+        <!-- Add more project descriptions here -->
+    </main>    
+    <footer>
+        <p class="centered-text">&copy;  {{ current_year }} Thomas Kyriakos Pravinos</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p class="centered-text">Explore my projects and learn more about me.</p>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Me</a></li>
+            <li><a href="/projects">Projects</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>My Socials</h2>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/thomaspravinos/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/t_pravinos" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/thomas-pravinos/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <!-- Add more social icons and links as needed -->
+        </div>
+    </main>
+    
+    <footer>
+        <p class="centered-text">&copy;  {{ current_year }} Thomas Kyriakos Pravinos</p>
+    </footer>
+</body>
+</html>
